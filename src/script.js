@@ -121,6 +121,23 @@ function resilienceHub() {
         this.resources = [
           // Food Access & Nutrition
           {
+            id: "souls-harbor-pantry",
+            name: "Soul's Harbor Food Pantry",
+            category: "Food Access & Nutrition",
+            description: "Church-run food pantry with evening and midday distributions on alternating Mondays.",
+            address: "2802 11th St, Rockford, IL 61109",
+            hours: "1st & 3rd Mon 5:30–7pm (some listings show 6:30–8pm); 2nd & 4th Mon 12–1pm",
+            contact: "(815) 229-1922",
+            website: "",
+            eligibility: "Open to all; bring ID if available",
+            tags: ["food-pantry", "groceries", "church", "free", "distribution"],
+            neighborhood: "Kishwaukee",
+            languages: ["English"],
+            status: "active",
+            notes: "Hours vary by Monday of the month; verify before visiting.",
+            verification_date: "2025-10-30"
+          },
+          {
             id: "carpenters-place",
             name: "Carpenter's Place Food Pantry",
             category: "Food Access & Nutrition",
@@ -331,7 +348,6 @@ function resilienceHub() {
             notes: "Operated by United Way of Rock River Valley.",
             verification_date: "2025-10-30"
           },
-
 
           // Financial Resilience
           {
