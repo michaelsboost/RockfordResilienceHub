@@ -1,0 +1,29 @@
+/* src/bundle.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tweaks (attribute selector + print helpers) */
+@layer base {
+  [x-cloak] { display: none !important; }
+
+  @media print {
+    .no-print { display: none !important; }
+    body { background: #fff !important; }
+    .card { break-inside: avoid; -moz-column-break-inside: avoid; }
+  }
+}
+
+/* Reusable components */
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .dark .glass-card {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
