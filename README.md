@@ -1,6 +1,6 @@
 # 🏙️ Rockford Resilience Hub
 
-![](https://raw.githubusercontent.com/michaelsboost/RockfordResilienceHub/main/screenshot.jpeg)
+![](https://raw.githubusercontent.com/michaelsboost/RockfordResilienceHub/main/imgs/screenshot.jpeg)
 
 ## 🌟 Overview
 The **Rockford Resilience Hub** is a **lightweight, offline-first community directory** built to connect residents, responders, and organizations across Rockford, Illinois to essential **local resources for food, shelter, health, safety, and sustainability**.
